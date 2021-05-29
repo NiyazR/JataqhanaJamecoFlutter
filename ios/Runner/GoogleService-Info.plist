@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>211347741626-uac2523h93l5ghtr7s6qq917hnqbdvlk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.211347741626-uac2523h93l5ghtr7s6qq917hnqbdvlk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDdF55S-XLaTonOdqx-vN1UU41g8NsVi2o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>211347741626</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.login</string>
+	<key>PROJECT_ID</key>
+	<string>jihc-e54e4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jihc-e54e4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:211347741626:ios:00b5c34e0e2ef56b5c1b83</string>
+	<key>DATABASE_URL</key>
+	<string>https://jihc-e54e4-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
