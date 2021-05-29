@@ -4,10 +4,6 @@ import 'package:jihc/3%20page/main3.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-
-
-
-
 import 'LoginStudent.dart';
 import 'LoginTeacher.dart';
 
@@ -22,23 +18,24 @@ class TandayPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Container( decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('images/jihcbac.png'),
-              fit: BoxFit.fill,
+          Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('images/jihcbac.png'),
+                fit: BoxFit.fill,
+              ),
             ),
           ),
-
-          ),
-
           Container(color: Colors.teal.withOpacity(0.35)),
-          Row(mainAxisAlignment: MainAxisAlignment.center,
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Column(mainAxisAlignment: MainAxisAlignment.center,
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-
                   Padding(
-                    padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
+                    padding:
+                        const EdgeInsets.only(left: 10, right: 10, top: 10),
                     child: Container(
                       width: width / 1.3,
                       height: height / 9,
@@ -52,14 +49,11 @@ class TandayPage extends StatelessWidget {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-
-
-                               Text('Студент',
-                                    style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.white,
-                                        fontSize: width / 20)),
-
+                              Text('Студент',
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                      fontSize: width / 20)),
                             ],
                           ),
                           textColor: Colors.black,
@@ -70,14 +64,16 @@ class TandayPage extends StatelessWidget {
                           onPressed: () {
                             Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (context) =>  LoginDemo()),
+                              MaterialPageRoute(
+                                  builder: (context) => LoginDemo()),
                             );
                           }),
                     ),
                   ),
                   SizedBox(height: width / 10),
                   Padding(
-                    padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
+                    padding:
+                        const EdgeInsets.only(left: 10, right: 10, top: 10),
                     child: Container(
                       width: width / 1.3,
                       height: height / 9,
@@ -109,14 +105,17 @@ class TandayPage extends StatelessWidget {
                         onPressed: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => LoginDemo2()),
+                            MaterialPageRoute(
+                                builder: (context) => LoginDemo2()),
                           );
-                        },),
+                        },
+                      ),
                     ),
                   ),
                   SizedBox(height: width / 10),
                   Padding(
-                    padding: const EdgeInsets.only(left: 10, right: 10, top: 10),
+                    padding:
+                        const EdgeInsets.only(left: 10, right: 10, top: 10),
                     child: Container(
                       width: width / 1.3,
                       height: height / 9,
@@ -148,21 +147,20 @@ class TandayPage extends StatelessWidget {
                         onPressed: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => TablePage3()),
+                            MaterialPageRoute(
+                                builder: (context) => TablePage3()),
                           );
-                        },),
+                        },
+                      ),
                     ),
                   ),
                   SizedBox(height: width / 10),
                 ],
               ),
-
             ],
           ),
         ],
       ),
     );
   }
-
-
 }

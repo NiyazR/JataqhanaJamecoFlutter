@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: TablePage2(),
+      home: MyHomePage(),
     );
   }
 }

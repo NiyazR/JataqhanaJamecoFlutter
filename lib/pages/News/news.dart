@@ -106,7 +106,7 @@ class _NewsPagebirState extends State<NewsPagebir> {
               color: Colors.white,
               child: Stack(
                 children: [
-                  
+
                   SizedBox(
                     height: 200.0,
                     width: 200.0,
